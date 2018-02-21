@@ -1,0 +1,9 @@
+<div>
+    <h1>Lista de Produtos {{$ctrl.produtos.length}}</h1>
+    <div ng-repeat="produto in $ctrl.produtos track by produto.id ">
+        <p>{{produto.id}}</p>
+        <p>{{produto.nome}}</p>
+        <p>{{produto.descricao}}</p>
+        <p>{{produto.preco}}</p>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+    "produtos":[
+        {
+            "id":1,
+            "nome":"Produto 01",
+            "descricao":"Descricao do produto 01",
+            "preco":2.99
+        },
+        {
+            "id":2,
+            "nome":"Produto 02",
+            "descricao":"Descricao do produto 02",
+            "preco":9.99
+        }
+    ],
+    "usuários": [
+        {
+            "id":1,
+            "Login":"usuariocerto@teste.com",
+            "senha":"123"
+        }
+    ]
+}
